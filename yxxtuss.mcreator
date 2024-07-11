@@ -1,0 +1,229 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tp",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/command/TpCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Tp0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/procedures/Tp0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Noon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/procedures/NoonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Time",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/command/TimeCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Day",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/procedures/DayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Night",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/procedures/NightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Midnight",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/procedures/MidnightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Killr",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/command/KillrCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Kill",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yxxtuss/procedures/KillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "yxxtuss",
+    "modName": "yxxtuss",
+    "version": "0.1.0",
+    "description": "更改部分指令权限",
+    "author": "yxxtuss",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "yxxtuss-icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.yxxtuss"
+  },
+  "mcreatorVersion": 202400118518
+}
